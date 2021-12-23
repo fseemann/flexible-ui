@@ -1,24 +1,11 @@
-# lib
+# @flexible/ui
 
-## Project setup
-```
-npm install
-```
+FlexibleUi provides accessible and complex components without any preconfigured styling.
+A custom style for each project can be applied with any css framework you like.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This library is meant to solve the usual business requirements like forms with validation, inputs and pagination without
+locking you into fixed design systems.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+> This library is still in very early development.
+> 
+> If you like to contribute please open an issue.

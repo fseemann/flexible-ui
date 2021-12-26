@@ -6,7 +6,7 @@
 import defaultTheme from '../themes/default.js'
 
 export default {
-  name: 'ThemeProvider',
+  name: 'UiThemeProvider',
   provide () {
     return {
       theme: this.theme

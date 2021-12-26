@@ -2,8 +2,9 @@ import * as components from './components'
 
 const FlexibleUi = {
   install (app) {
-    for (const component in components) {
-      app.component(component.name, component)
+    const nameByComponent = Object.entries(components)
+    for (const [name, component] of nameByComponent) {
+      app.component(name, component)
     }
   }
 }

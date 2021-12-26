@@ -1,4 +1,7 @@
 import { createApp } from 'vue'
 import App from './App'
+import FlexibleUi from '../src/lib'
 
-createApp(App).mount('#app')
+const app = createApp(App)
+app.use(FlexibleUi)
+app.mount('#app')

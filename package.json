@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name flexible-ui src/lib.js",
+    "serve:docs": "vue-cli-service serve docs/main.js",
+    "build:lib": "vue-cli-service build --target lib --name flexible-ui src/lib.js",
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
